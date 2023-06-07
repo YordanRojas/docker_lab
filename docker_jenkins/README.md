@@ -36,14 +36,13 @@ Abrir el navegador, introducir la ruta indicando el puerto configurado, en este 
 ```sh 
 http://localhost:8080
 ```
-Introducir el código 
-
-$ docker run -u root -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -d --restart unless-stopped jenkins-chrome:latest
-
+Introducir el código y continuar
 
 <p align="center">
-22
-  <img src="./img/example.png" alt="Size Limit CLI" width="738">
-23
+  <img src="./img/bienvenida.png" alt="Size Limit CLI" width="738">
 </p>
+<p align="center">
+  <img src="./img/Instalacion_plugins.png" alt="Size Limit CLI" width="738">
+</p>
+$ docker run -u root -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -d --restart unless-stopped jenkins-chrome:latest
 
