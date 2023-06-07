@@ -39,7 +39,7 @@ http://localhost:8080
 Introducir el código y continuar
 
 <p align="center">
-  <img src="./img/bienvenida.png" alt="Size Limit CLI" width="738">
+  <img src="./img/bienvenida.png" >
 </p>
 <p align="center">
   <img src="./img/Instalacion_plugins.png" alt="Size Limit CLI" width="738">
